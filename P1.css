@@ -109,6 +109,18 @@ form .two > .one{
     color: blueviolet;
 }
 
+form button{
+    background-color: blueviolet;
+    color: white;
+    width: 100%;
+    font-family: 'Poppins';
+    border: 0px;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+    border: 5px;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
 form button:hover{
     background-color: blue;
     cursor:pointer;
